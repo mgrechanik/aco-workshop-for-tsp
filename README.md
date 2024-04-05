@@ -38,7 +38,7 @@ This application is intended to be run locally, on user's PC.
     
 ## Installing ang running on Docker <span id="docker"></span>
 
-If you are using Docker in your work the application is ready to be run with it.
+If you are using Docker in your work than the application is ready to be run with it.
 
 
 Download app's files with a Git
@@ -77,9 +77,9 @@ docker compose down
 ## Installing ang running on OpenServer <span id="openserver"></span>
 
 If you are not familiar with Docker, you can run it on any webserver with PHP (version >= 8.0 ) and Composer.
-Because application is just PHP app on Yii2 framework.
+Because the application is just a PHP app on Yii2 framework.
 
-For example I will show you how to install and run it on [OpenServer](https://ospanel.io/)
+For example, I will show you how to install and run it on [OpenServer](https://ospanel.io/)
 
 1) Download and install OpenServer, I have it installed in D:\OpenServer
 
@@ -101,9 +101,9 @@ config
 
 6) At modules tab set PHP version to 8.0 or higher.
 
-7) At the domains tab domain name set to **aco.front**, and it's directory to - **aco.front/web** , click "Add" button.
+7) At the domains tab you set new name to **aco.front**, and it's directory to - **aco.front/web** , click "Add" button.
 
-8) We det our domain in the list like on the image and click Save
+8) We get our domain in the list like on the image and click "Save"
 
 9) Go to PHP settings
 
@@ -120,7 +120,8 @@ cd domains\aco.front
 composer install
 ```
 
-14) That is all, application is ready to be used, just go to the next address in your web browser
+14) That is all, application is ready to be used, just go to the next address in your web browser:
+
 http://aco.front/
 
 ---
