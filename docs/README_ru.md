@@ -26,6 +26,8 @@
 
 ## Демо <span id="demo"></span>
 
+![Муравьиный алгоритм, мастеркласс](https://github.com/mgrechanik/aco-workshop-for-tsp/blob/main/docs/aco_workshop_demo.jpg?raw=true "Муравьиный алгоритм, мастеркласс")
+
 
 
 	
@@ -89,6 +91,7 @@ config
 ```
 
 4) Теперь вам нужно настроить ряд вещей. На картинке показаны шаги.
+![установка на OpenServer](https://github.com/mgrechanik/aco-workshop-for-tsp/blob/main/docs/os_all.jpg?raw=true "установка на OpenServer")
 
 5) Переходим в настройки
 
