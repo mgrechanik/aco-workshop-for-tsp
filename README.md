@@ -1,4 +1,4 @@
-# Ant colony optimization workshop for solving a travelling salesman probleb
+# Ant colony optimization workshop for solving a travelling salesman problem
 
 [Русская версия](docs/README_ru.md)
 
@@ -15,15 +15,14 @@
 
 ## Introdution <span id="goal"></span>
 
-This workshop gives you a web-application with user interface to work with [this ACO library](https://github.com/mgrechanik/ant-colony-optimization).
+This workshop gives you a web-application with user interface to work with this [ACO library](https://github.com/mgrechanik/ant-colony-optimization).
 
 All details about aco algorithm you can find in the docs of that library.
 
-The information about graph comes from image file.
+The information about graph comes from an image file.
 
 You can set all settings and parameters used by aco algorithm and see the result of calculation.
 
-Данное приложение предназначено для запуска локально, на машине пользователя.
 This application is intended to be run locally, on user's PC.
 
 ---
@@ -39,34 +38,34 @@ This application is intended to be run locally, on user's PC.
     
 ## Installing ang running on Docker <span id="docker"></span>
 
-Если вы используете в своей работе Docker, то приложение готово к запуску на нем.
+If you are using Docker in your work the application is ready to be run with it.
 
 
-Скачайте себе файлы приложения с помощью Git
+Download app's files with a Git
 ```
 git clone git@github.com:mgrechanik/aco-workshop-for-tsp.git
 ```
 
-Если у вас не установлен Git, скачайте по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте.
+If you do not have Git, download files from **Code --> Dowload Zip** at this github page and unzip it.
 
-Перейдите в каталог с приложением
+Go to the directory with the application
 ```
 cd aco-workshop-for-tsp
 ```
 
-Нужно назначить права, единоразово выполните
+You need to set rigts, you need to do it one-time.
 ```
 chmod -R o+w ./web/uploads
 ```
 
-Все, приложение готово к запуску, теперь каждый раз запускайте командой:
+That is all, application is ready to be launched, so do it with this command:
 ```
 docker compose up -d
 ```
 
-И по адресу http://localhost:8000 в браузере увидите страницу приложения.
+And by opening address http://localhost:8000 in your web browser you will see the main page of the application.
 
-Когда решаете завершить работу, выполните
+When you diside to stop working, just run
 
 ```
 docker compose down
@@ -77,16 +76,17 @@ docker compose down
 
 ## Installing ang running on OpenServer <span id="openserver"></span>
 
-Если вы не знакомы с Docker, то данное приложение является обычным PHP приложением (на Yii2), для запуска которого 
-достаточно иметь любой вебсервер, с установленными PHP (версии 8.0 и выше) и Composer.
+If you are not familiar with Docker, you can run it on any webserver with PHP (version >= 8.0 ) and Composer.
+Because application is just PHP app on Yii2 framework.
 
-Для примера, покажу как установить приложение на [OpenServer](https://ospanel.io/)
+For example I will show you how to install and run it on [OpenServer](https://ospanel.io/)
 
-1) Скачайте и установите себе OpenServer, у меня он установлен в D:\OpenServer
+1) Download and install OpenServer, I have it installed in D:\OpenServer
 
-2) В папке D:\OpenServer\domains создайте свою папку, например aco.front.
+2) In the directory D:\OpenServer\domains create new directory, say **aco.front**.
 
-3) Скачайте по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте в эту папку. У вас в папке ```D:\OpenServer\domains\aco.front``` должно стать так:
+3) Download application files from **Code --> Dowload Zip** at this github page and unzip it. 
+Your directory ```D:\OpenServer\domains\aco.front``` should look like:
 ```
 assets
 commands
@@ -94,33 +94,33 @@ config
 ...
 ```
 
-4) Теперь вам нужно настроить ряд вещей. На картинке показаны шаги.
-![установка на OpenServer](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/os_all.jpg "установка на OpenServer")
+4) Now you need to set a couple of things. The steps are demonstrated on the next image.
+![installing on OpenServer](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/os_all.jpg "installing on OpenServer")
 
-5) Переходим в настройки
+5) Go to Settings
 
-6) На вкладке модули выбираем чтобы версия PHP была 8.0 и выше
+6) At modules tab set PHP version to 8.0 or higher.
 
-7) На вкладке Домены имя домена указываем наше aco.front, а папку - aco.front/web , жмем кнопку "Добавить"
+7) At the domains tab domain name set to **aco.front**, and it's directory to - **aco.front/web** , click "Add" button.
 
-8) Получаем домен в списке как на картинке, жмем "Сохранить"
+8) We det our domain in the list like on the image and click Save
 
-9) Идем в настройки PHP
+9) Go to PHP settings
 
-10) И устанавливаем время выполнения вместо 30 (это в секундах), например в 300
+10) Set the work timeout from 30 (seconds) to 300 for example
 
-11) Запускаем Вебсервер
+11) Lanch a web server
 
-12) Идем в Консоль
+12) Go to console
 
-13) В ней выполняем две команды
+13) Run two commands in it
 ```
 cd domains\aco.front
 
 composer install
 ```
 
-14) Готово, теперь сайт можно открыть в браузере по адресу
+14) That is all, application is ready to be used, just go to the next address in your web browser
 http://aco.front/
 
 ---

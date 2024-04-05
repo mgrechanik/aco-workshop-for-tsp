@@ -85,7 +85,7 @@ docker compose down
 
 2) В папке D:\OpenServer\domains создайте свою папку, например aco.front.
 
-3) Скачайте по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте в эту папку. У вас в папке ```D:\OpenServer\domains\aco.front``` должно стать так:
+3) Скачайте приложение по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте в эту папку. У вас в папке ```D:\OpenServer\domains\aco.front``` должно стать так:
 ```
 assets
 commands
