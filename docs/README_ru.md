@@ -15,7 +15,7 @@
 
 ## Цель <span id="goal"></span>
 
-Данный мастеркласс предоставляет готовое web-приложение, которое дает пользовательский интерфейс над данной [ACO библиотекой](https://github.com/mgrechanik/ant-colony-optimization).
+Данный мастеркласс предоставляет готовое web-приложение, которое дает пользовательский интерфейс для работы с данной [ACO библиотекой](https://github.com/mgrechanik/ant-colony-optimization).
 
 Данные о графе поступают в виде картинки.
 
@@ -43,7 +43,7 @@
 git clone git@github.com:mgrechanik/aco-workshop-for-tsp.git
 ```
 
-Если у вас не установлен Git, скачайте по кнопке (выше на странице) ** Code -> Dowload Zip **, и разархивируйте.
+Если у вас не установлен Git, скачайте по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте.
 
 Перейдите в каталог с приложением
 ```
@@ -82,7 +82,7 @@ docker compose down
 
 2) В папке D:\OpenServer\domains создайте свою папку, например aco.front.
 
-3) Скачайте по кнопке (выше на странице) ** Code -> Dowload Zip **, и разархивируйте в эту папку. У вас в папке ```D:\OpenServer\domains\aco.front``` должно стать так:
+3) Скачайте по кнопке (выше на странице) **Code --> Dowload Zip**, и разархивируйте в эту папку. У вас в папке ```D:\OpenServer\domains\aco.front``` должно стать так:
 ```
 assets
 commands
