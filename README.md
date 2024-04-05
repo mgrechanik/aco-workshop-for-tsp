@@ -128,12 +128,12 @@ http://aco.front/
 
 ## Tips <span id="tips"></span>
 
-#### How to create am image with a graph <span id="tips-image-create"></span>
+#### How to create an image with a graph <span id="tips-image-create"></span>
 
 There are two types of strategies how we find nodes of a graph on an image.
 
 The first strategy is this: the color of nodes are different from background color (color of top left pixel )
-Take a paintbrush in your image editor with 10px diameter and draw nodes.
+Take a brush in your image editor with 10px (so they are clearly seen) diameter and draw nodes.
 
 The second strategy is when you know the exact color, in RGB format, which is present on the node.
 It is handy when you have some others image and draw you nodes on it.
