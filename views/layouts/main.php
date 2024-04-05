@@ -38,7 +38,7 @@ $uploadModel = new UploadForm();
 <header id="header">
     <?php
     NavBar::begin([
-        'brandLabel' =>Yii::t('app', 'Ant colony optimization workshop. Solving Travelling salesman problem.'),
+        'brandLabel' =>Yii::t('app', 'Ant colony optimization workshop. Solving the Travelling salesman problem.'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => ['class' => 'navbar-expand-md navbar-dark bg-dark fixed-top']
     ]);
