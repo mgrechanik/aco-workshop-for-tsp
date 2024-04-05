@@ -4,4 +4,3 @@ COPY . /app
 WORKDIR /app
 RUN composer install
 RUN chown -R www-data:www-data /app 
-RUN chmod o+w /app/web/uploads && chmod o+w /app/web/uploads/result
