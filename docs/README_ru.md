@@ -26,7 +26,7 @@
 
 ## Демо <span id="demo"></span>
 
-![Муравьиный алгоритм, мастеркласс](https://github.com/mgrechanik/aco-workshop-for-tsp/blob/main/docs/aco_workshop_demo.jpg?raw=true "Муравьиный алгоритм, мастеркласс")
+![Муравьиный алгоритм, мастеркласс](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/aco_workshop_demo.jpg "Муравьиный алгоритм, мастеркласс")
 
 
 
@@ -76,7 +76,7 @@ docker compose down
 Если вы не знакомы с Docker, то данное приложение является обычным PHP приложением (на Yii2), для запуска которого 
 достаточно иметь любой вебсервер, с установленными PHP (версии 8.0 и выше) и Composer.
 
-Для примера покажу как установить приложение на [OpenServer](https://ospanel.io/)
+Для примера, покажу как установить приложение на [OpenServer](https://ospanel.io/)
 
 1) Скачайте и установите себе OpenServer, у меня он установлен в D:\OpenServer
 
@@ -91,11 +91,11 @@ config
 ```
 
 4) Теперь вам нужно настроить ряд вещей. На картинке показаны шаги.
-![установка на OpenServer](https://github.com/mgrechanik/aco-workshop-for-tsp/blob/main/docs/os_all.jpg?raw=true "установка на OpenServer")
+![установка на OpenServer](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/os_all.jpg "установка на OpenServer")
 
 5) Переходим в настройки
 
-6) На вкладке модули выбираем чтобы версия PHP была 8ю0 и выше
+6) На вкладке модули выбираем чтобы версия PHP была 8.0 и выше
 
 7) На вкладке Домены имя домена указываем наше aco.front, а папку - aco.front/web , жмем кнопку "Добавить"
 
