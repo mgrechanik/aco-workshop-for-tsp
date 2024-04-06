@@ -99,7 +99,7 @@ config
 
 5) Go to Settings
 
-6) At modules tab set PHP version to 8.0 or higher.
+6) At modules tab you set PHP version to 8.0 or higher.
 
 7) At the domains tab you set new name to **aco.front**, and it's directory to - **aco.front/web** , click "Add" button.
 
