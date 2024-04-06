@@ -38,7 +38,7 @@ This application is intended to be run locally, on user's PC.
     
 ## Installing ang running on Docker <span id="docker"></span>
 
-If you are using Docker in your work than the application is ready to be run with it.
+If you are using Docker in your work then the application is ready to be run with it.
 
 
 Download app's files with a Git
