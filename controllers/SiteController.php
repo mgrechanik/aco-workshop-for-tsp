@@ -48,8 +48,12 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if (Yii::$app->request->post('delete-button')) {
-                $model->deleteCurrentFile();
-                Yii::$app->session->setFlash('success', Yii::t('app', 'The file has been deleted successfully'));
+                try {
+                    $model->deleteCurrentFile();
+                    Yii::$app->session->setFlash('success', Yii::t('app', 'The file has been deleted successfully'));
+                } catch(\Exception $e) {
+                     Yii::$app->session->setFlash('error', Yii::t('app', 'Error deleting a file, give access:' . ' chmod -R o+w ./web/uploads'));
+                }   
                 return $this->redirect(['site/index']);
             } else {
                 $id = $service->processValidModel();
@@ -80,7 +84,7 @@ class SiteController extends Controller
                         Yii::$app->session->setFlash('success', Yii::t('app', 'New file added successfully'));
                     }
                 } catch(\Exception $e) {
-                     Yii::$app->session->setFlash('error', Yii::t('app', 'Error uploading file, give access:' . 'chmod -R o+w ./web/uploads'));
+                     Yii::$app->session->setFlash('error', Yii::t('app', 'Error uploading a file, give access:' . ' chmod -R o+w ./web/uploads'));
                 }
                 
             }

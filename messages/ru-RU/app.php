@@ -40,7 +40,8 @@ return [
     'Delete current image file' => 'Удалить текущий файл картинку',
     'The file has been deleted successfully' => 'Файл был успешно удален',
     'Are you sure you want to delete this file?' => 'Вы уверены что хотите удалить этот файл?',
-    'Error uploading file, give access:' => 'Ошибка загрузки файла, дайте доступ папке:'
+    'Error uploading a file, give access:' => 'Ошибка загрузки файла, дайте доступ папке:',
+    'Error deleting a file, give access:' => 'Ошибка удаления файла, дайте доступ папке:'
     
 ];
 
