@@ -21,7 +21,7 @@ All details about aco algorithm you can find in the docs of that library.
 
 The information about graph comes from an image file.
 
-You can set all settings and parameters used by aco algorithm and see the result of calculation.
+You can set all settings and parameters used by aco algorithm and see the result of the calculation.
 
 This application is intended to be run locally, on user's PC.
 
@@ -132,7 +132,7 @@ http://aco.front/
 
 There are two types of strategies how we find nodes of a graph on an image.
 
-The first strategy is this: the color of nodes are different from background color (color of top left pixel )
+The first strategy is this: the color of nodes are different from background color (color of the top left pixel)
 Take a brush in your image editor with 10px (so they are clearly seen) diameter and draw nodes.
 
 The second strategy is when you know the exact color, in RGB format, which is present on the node.
