@@ -132,7 +132,7 @@ http://aco.front/
 
 There are two types of strategies how we find nodes of a graph on an image.
 
-The first strategy is this: the color of nodes are different from background color (color of the top left pixel)
+The first strategy is this: the color of nodes are different from background color (color of the top left pixel).
 Take a brush in your image editor with 10px (so they are clearly seen) diameter and draw nodes.
 
 The second strategy is when you know the exact color, in RGB format, which is present on the node.
