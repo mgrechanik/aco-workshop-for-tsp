@@ -74,9 +74,13 @@ class SiteController extends Controller
         if (Yii::$app->request->isPost) {
             $model->file = UploadedFile::getInstance($model, 'file');
 
-            if ($model->file && $model->validate()) {                
-                if ($model->file->saveAs('@webroot/uploads/' . $model->file->baseName . '.' . $model->file->extension)) {
-                    Yii::$app->session->setFlash('success', Yii::t('app', 'New file added successfully'));
+            if ($model->file && $model->validate()) {   
+                try {
+                    if ($model->file->saveAs('@webroot/uploads/' . $model->file->baseName . '.' . $model->file->extension)) {
+                        Yii::$app->session->setFlash('success', Yii::t('app', 'New file added successfully'));
+                    }
+                } catch(\Exception $e) {
+                     Yii::$app->session->setFlash('error', Yii::t('app', 'Error uploading file, give access:' . 'chmod -R o+w ./web/uploads'));
                 }
                 
             }

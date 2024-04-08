@@ -33,13 +33,14 @@ return [
     'The path has been found successfully' => 'Путь был успешно найден',
     'Something went wrong. Unable to build a path' => 'Что то пошло неверно. Путь не был построен',
     'Distance of the path we found' => 'Длина пути, который мы нашли',
-    'Ant colony optimization workshop. Solving the Travelling salesman problem.' => 'Мастеркласс по муравьиному алгоритму. Решаем задачу коммивояжера.',
+    'Ant colony optimization workshop. Solving Travelling salesman problem.' => 'Мастеркласс по муравьиному алгоритму. Решаем задачу коммивояжера.',
     'Home' => 'Главная',
     'We found this path' => 'Мы нашли следующий путь',
     'Delete' => 'Удалить',
     'Delete current image file' => 'Удалить текущий файл картинку',
     'The file has been deleted successfully' => 'Файл был успешно удален',
-    'Are you sure you want to delete this file?' => 'Вы уверены что хотите удалить этот файл?'
+    'Are you sure you want to delete this file?' => 'Вы уверены что хотите удалить этот файл?',
+    'Error uploading file, give access:' => 'Ошибка загрузки файла, дайте доступ папке:'
     
 ];
 
