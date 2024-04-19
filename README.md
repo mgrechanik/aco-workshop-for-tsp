@@ -65,7 +65,7 @@ docker compose up -d
 
 And by opening address http://localhost:8000 in your web browser you will see the main page of the application.
 
-When you diside to stop working, just run
+When you decide to stop working, just run
 
 ```
 docker compose down
