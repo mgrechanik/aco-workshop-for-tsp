@@ -29,6 +29,8 @@
 
 ## Демо <span id="demo"></span>
 
+[Видео демо](https://www.youtube.com/watch?v=0sNPC6pUG9U)
+
 ![Муравьиный алгоритм, мастеркласс](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/aco_workshop_demo.jpg "Муравьиный алгоритм, мастеркласс")
 
 

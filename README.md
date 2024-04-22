@@ -29,6 +29,8 @@ This application is intended to be run locally, on user's PC.
 
 ## Demo <span id="demo"></span>
 
+[Video demo](https://www.youtube.com/watch?v=0sNPC6pUG9U)
+
 ![Ant colony optimization workshop](https://raw.githubusercontent.com/mgrechanik/aco-workshop-for-tsp/main/docs/aco_workshop_demo.jpg "Ant colony optimization workshop")
 
 
