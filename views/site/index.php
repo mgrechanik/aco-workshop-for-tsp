@@ -50,19 +50,11 @@ $this->title = 'ACO workshop';
                  ]) ?></div>
                  
                  <div class="col-sm-3 "> 
-                 <?= $form->field($model, 'mpercent', [
-                      'inputTemplate' => '<div class="input-group">{input}
-                          <span class="input-group-text">%</span>
-                      </div>',                 
-                 ])->textInput() ?>                 
+                 <?= $form->field($model, 'mpercent')->textInput() ?>                 
                  </div>
                  <div class="col-sm-3"> <?= $form->field($model, 'm')->textInput() ?></div>
                  <br>
-                 <div class="col-sm-2 sigma"> <?= $form->field($model, 'sigmapercent', [
-                      'inputTemplate' => '<div class="input-group">{input}
-                          <span class="input-group-text">%</span>
-                      </div>',
-                 ])->textInput() ?></div>
+                 <div class="col-sm-2 sigma"> <?= $form->field($model, 'sigmapercent')->textInput() ?></div>
                  <div class="col-sm-2 sigma"> <?= $form->field($model, 'sigma')->textInput() ?></div>                 
         </div>
         <div class="aco-part row">
