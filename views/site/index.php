@@ -50,11 +50,25 @@ $this->title = 'ACO workshop';
                  ]) ?></div>
                  
                  <div class="col-sm-3 "> 
-                 <?= $form->field($model, 'mpercent')->textInput() ?>                 
+                     <?php 
+                        print Html::activeLabel($model, 'mpercent', ['class' => 'form-label']);                 
+                        print $field = $form->field($model, 'mpercent', [
+                            'template' => "{input}\n<span class=\"input-group-text\">%</span>\n{hint}\n{error}",
+                            'options' => [ 'class' => 'mb3 input-group']
+                        ])->textInput();
+                      ?>                 
                  </div>
                  <div class="col-sm-3"> <?= $form->field($model, 'm')->textInput() ?></div>
-                 <br>
-                 <div class="col-sm-2 sigma"> <?= $form->field($model, 'sigmapercent')->textInput() ?></div>
+                 
+                 <div class="col-sm-2 sigma"> 
+                     <?php 
+                        print Html::activeLabel($model, 'sigmapercent', ['class' => 'form-label']);                 
+                        print $field = $form->field($model, 'sigmapercent', [
+                            'template' => "{input}\n<span class=\"input-group-text\">%</span>\n{hint}\n{error}",
+                            'options' => [ 'class' => 'mb3 input-group']
+                        ])->textInput();
+                      ?>
+                 </div>
                  <div class="col-sm-2 sigma"> <?= $form->field($model, 'sigma')->textInput() ?></div>                 
         </div>
         <div class="aco-part row">
