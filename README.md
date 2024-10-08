@@ -6,8 +6,8 @@
 
 * [Introdution](#goal)
 * [Demo](#demo)
-* [Installing ang running on Docker](#docker)
-* [Installing ang running on OpenServer](#openserver)
+* [Installing and running on Docker](#docker)
+* [Installing and running on OpenServer](#openserver)
 * [Tips](#tips)
 
 
